@@ -142,6 +142,22 @@ body{
     cursor: pointer;
 }
 
+/*styles for intro section*/
+.intro{
+    padding: 32px 72px;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+.intro-header{
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-top: 16px;   
+}
+.intro-text{
+    font-weight: lighter;
+    text-align: justify;
+}
+
 /*styles for blog section*/
 .blog{
     display: grid;
