@@ -141,3 +141,50 @@ body{
     border: none;
     cursor: pointer;
 }
+
+/*styles for blog section*/
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog-item{
+    padding: 24px;
+}
+.blog-img{
+    width: 100%;
+}
+.blog-img-container{
+    position: relative;
+}
+.blog-img-desc-container{
+    position: absolute;
+    bottom: -70px;
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+}
+.blog-img-desc{
+    width: 150px;
+    height: 140px;
+    background-color: #ebefee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.underline{
+    background-color: #000;
+    width: 45px;
+    height: 2px;
+    margin: 3px auto;
+    border: none;
+}
+.blog-desc-container{
+    margin-top: 90px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: justify;
+}
