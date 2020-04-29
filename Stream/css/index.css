@@ -188,3 +188,27 @@ body{
     letter-spacing: 1px;
     text-align: justify;
 }
+
+/*styles for insta section*/
+.insta{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.insta-item{
+    padding: 24px;
+}
+.insta-item-img{
+    width: 100%;
+}
+.insta-item-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 24px;
+}
