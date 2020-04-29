@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", 'sans-serif';
+}
+.main-container{
+    margin: 0 auto;
+    max-width: 1120px;
+    min-width: 320px;
+}
+
+/*header style*/
+.menu-bar{
+    display: none;
+}
+.header-container{
+    width: 100%;
+    padding: 70px 32px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    box-sizing: border-box;
+}
+.main-logo{
+    width: 163px;
+}
+.header-nav{
+    display:flex;
+    align-items: center;
+}
+.header-link{
+    margin: 0 7px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+.header-link:hover{
+    color: #4c6665;    
+}
+
+.header-social-media{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-social-icon{
+    margin: 0 8px;
+}
+.header-social-media:hover{
+    color: #4c6665;
+}
+.header-social-icon:hover{
+    color: #000;
+}
+
+/*styles for banner section*/
+.banner{
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    align-items: end;
+    padding: 32px;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-content{
+    padding-left: 30px;
+    display: grid;
+    grid-template-areas: "header ."
+    "latest insta";
+}
+.banner-img-container{
+    display: flex;
+    align-items: flex-end; 
+}
+.banner-content-header{
+    font-size: 36px;
+    width: 280px;
+    border-top:3px solid #000 ;
+    border-bottom:3px solid #000 ;
+    padding: 10px 0;
+    text-transform: uppercase;
+    grid-area: header;
+}
+.banner-latest{
+    width: 230px;
+}
+.banner-latest-container{
+    grid-area: latest;
+}
+.banner-insta-container{
+    grid-area: insta;
+}
+.banner-content-img-container{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.banner-buttom-text{
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*styles for subscribe section*/
+.subscribe{
+    margin: 32px;
+    background-color: #FDDA04;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 50px;
+}
+.subscribe-header{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.subscribe-input{
+    height: 50px;
+    box-sizing: border-box;
+    padding: 15 px;
+}
+.subscribe-mail{
+    width: 240px;
+}
+.subscribe-btn{
+    width: 170px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ebefee;
+    border: none;
+    cursor: pointer;
+}
